@@ -1,5 +1,6 @@
 # Task state API
-- [Task state API](#task-state-api)
+Table of Contents
+=================
   - [Description](#description)
   - [The workflow of the task state:](#the-workflow-of-the-task-state)
   - [Prerequisites](#prerequisites)
@@ -137,6 +138,12 @@ Run the development server
 
 ```
 $> python Api.py -r
+```
+- (Optional) if you prefer Docker, run the following commands
+
+```bash
+    docker build -t task_state_api .
+    docker run -d -p 5000:5000 task_state_api
 ```
 
 ## Testing
